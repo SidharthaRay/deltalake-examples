@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/sidhartharay/.ivy2/cache
 [debug] :: resolving dependencies :: default#deltalake-examples$sbt_2.10;0.1
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -10,7 +11,6 @@
 [debug] == resolving dependencies default#deltalake-examples$sbt_2.10;0.1->org.scala-sbt#sbt;0.13.13 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.13 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.13 {default=[default(compile)]}
-[debug] no default cache defined: set to /Users/sidhartharay/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.13
 [debug] 	found org.scala-sbt#sbt;0.13.13 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1775,9 +1775,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 1112ms :: artifacts dl 57ms
+[debug] :: resolution report :: resolve 910ms :: artifacts dl 38ms
 [debug] 	report for default#deltalake-examples$sbt_2.10;0.1 default produced in /Users/sidhartharay/Documents/my-workspace/deltalake-examples/target/resolution-cache/reports/default-deltalake-examples$sbt_2.10-default.xml
-[debug] 	resolve done (1112ms resolve - 57ms download)
+[debug] 	resolve done (910ms resolve - 38ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#deltalake-examples$sources_2.10;0.1
 [debug] 	confs: [default]
@@ -2471,6 +2471,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 263ms :: artifacts dl 45ms
+[debug] :: resolution report :: resolve 254ms :: artifacts dl 46ms
 [debug] 	report for default#deltalake-examples$sources_2.10;0.1 default produced in /Users/sidhartharay/Documents/my-workspace/deltalake-examples/target/resolution-cache/reports/default-deltalake-examples$sources_2.10-default.xml
-[debug] 	resolve done (263ms resolve - 45ms download)
+[debug] 	resolve done (254ms resolve - 46ms download)
